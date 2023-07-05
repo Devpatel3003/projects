@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg{
+            background-color: cadetblue;
+            margin-left: 16px;
+        }
+        .bg:hover{
+            background-color: rgb(224, 224, 224);
+            margin-left: 16px;
+           
+        }
+        .b{
+            background-color: rgb(177, 120, 120);
+            margin-left: 10px;
+        }
+        .b:hover{
+            background-color: rgb(226, 226, 226);
+            margin-left: 10px;
+            
+        }
+        .h{
+            background-color: black;
+            color: aliceblue;
+            height: 30px;
+        }
+        .j{
+            border: 2px solid black;
+            padding: 20px;
+            width: 200px;
+            background-color: rgb(60, 98, 194);
+            margin-top: 220px;
+            margin-left: 450px;
+
+        }
+      
+    </style>
+</head>
+<body >
+
+    <div class="j">
+    <form action="" name="cal">
+        <input class="h" name="display"><br><br>
+        <input class="bg" type="button" value="0" onclick="cal.display.value+='0'">
+        <input class="bg" type="button" value="1" onclick="cal.display.value+='1'">
+        <input class="bg" type="button" value="2" onclick="cal.display.value+='2'">
+        <input class="b" type="button" value="+" onclick="cal.display.value+='+'"><br><br>
+        <input class="bg" type="button" value="3" onclick="cal.display.value+='3'">
+        <input class="bg" type="button" value="4" onclick="cal.display.value+='4'">
+        <input class="bg" type="button" value="5" onclick="cal.display.value+='5'">
+        <input class="b" type="button" value="-" onclick="cal.display.value+='-'"><br><br>
+        <input class="bg" type="button" value="6" onclick="cal.display.value+='6'">
+        <input class="bg" type="button" value="7" onclick="cal.display.value+='7'">
+        <input class="bg" type="button" value="8" onclick="cal.display.value+='8'">
+        <input class="b" type="button" value="*" onclick="cal.display.value+='*'"><br><br>
+        <input class="bg" type="button" value="9" onclick="cal.display.value+='9'">
+        <input class="bg" type="button" value="c" onclick="cal.display.value=''">
+        <input class="bg" type="button" value="=" onclick="cal.display.value=eval(cal.display.value)">
+        <input class="b" type="button" value="/" onclick="cal.display.value+='/'">
+    </form>
+</div>
+</body>
+</html>
