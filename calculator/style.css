@@ -1,0 +1,45 @@
+
+body{
+    height: 100%;
+    background-color: black;
+}
+.hi{
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+    padding: 30px;
+    margin-top: 200px;
+    margin-left: 500px;
+    border: 3px solid red;
+    border-radius: 5px;
+
+}
+.bg{
+    background-color: bisque;
+    margin-top: 25px;
+    margin-left: 45px;
+    height: 30px;
+    width: 30px;
+
+}
+.bg:hover{
+    background-color: rgb(14, 12, 10);
+    color: white;
+}
+.b{
+    background-color: aquamarine;
+    margin-top: 25px;
+    margin-left: 45px;
+    height: 35px;
+    width: 35px;
+}
+.b:hover{
+    background-color: rgb(14, 12, 10);
+    color: white;
+}
+#dis{
+    margin-left: 10px;
+    height: 50px;
+    width: 350px;
+    font-size: xx-large;
+}
