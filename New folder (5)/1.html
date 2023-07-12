@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedBack Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="2.css">
+  <script>
+    $(document).ready(function(){
+        $("#select1").click(function(){
+            $("#select1 h4").css("background-color","red");
+            $("#select1 h4").css("color","white");
+            $("#select2 h4").css("background-color","white");
+            $("#select2 h4").css("color","black");
+            $("#select3 h4").css("background-color","white");
+            $("#select3 h4").css("color","black");
+        });
+    });
+    $(document).ready(function(){
+        $("#select2").click(function(){
+            $("#select2 h4").css("background-color","red");
+            $("#select2 h4").css("color","white");
+            $("#select1 h4").css("background-color","white");
+            $("#select1 h4").css("color","black");
+            $("#select3 h4").css("background-color","white");
+            $("#select3 h4").css("color","black");
+        });
+    });
+    $(document).ready(function(){
+        $("#select3").click(function(){
+            $("#select3 h4").css("background-color","red");
+            $("#select3 h4").css("color","white");
+            $("#select2 h4").css("background-color","white");
+            $("#select2 h4").css("color","black");
+            $("#select1 h4").css("background-color","white");
+            $("#select1 h4").css("color","black");
+        });
+    });
+  </script>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="head1">
+                    <h1> Send Your FeedBack</h1>
+                </div><br>
+                <p> Did you achieve your goal?</p>
+                <div class="row">
+                    <div class="col-md-4" id="select1"><h4>Yes</h4></div>
+                    <div class="col-md-4" id="select2"><h4>Partially</h4></div>
+                    <div class="col-md-4" id="select3"><h4>No</h4></div>
+                </div>
+                <br>
+                <p>what was the reason for your visit?</p>
+                <div class="row">
+                    <div class="col-md-12">
+                        <select name="" id="" class="form-control">
+                            <option value="" selected disabled> select </option>
+                            <option value="">price list</option>
+                            <option value="">for info</option>
+                            <option value="">other</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <p>what was the reason you could not achieve your goalt?</p>
+                <div class="row">
+                    <div class="col-md-12">
+                        <select name="" id="" class="form-control">
+                            <option value="" selected disabled> select </option>
+                            <option value="">the form not work well</option>
+                            <option value="">i do not have ans.</option>
+                            <option value="">other</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <p> Do you have any suggestion to make website better.</p>
+                <textarea  class="form-control" required cols="3" rows="3"></textarea>
+                <br><br>
+                <center>
+                    <button class="btn btn-info">Submit</button>
+                </center>
+
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
