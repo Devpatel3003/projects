@@ -1,0 +1,42 @@
+.col-md-6{
+    background-color: rgb(69, 103, 101);
+}
+
+p{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.head1{
+    background-color: rgb(23, 35, 35);
+    height: 50px;
+}
+.head1 h1{
+    color: white;
+    font-family: monospace;
+    line-height: 45px;
+    text-align: center;
+}
+#select1 h4 , #select2 h4 , #select3 h4{
+   
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    align-items: center;
+    height: 40px;
+    line-height: 38px;
+    cursor: pointer;
+    border: 1px solid #100d0d;
+}
+.btn-info{
+    /* background-color: brown; */
+    color: #fff;
+    transition: 0.4s ease-in-out;
+    font-size: 18px;
+}
+form{
+    /* padding: 50px; */
+    margin-top: 50px;
+}
+body{
+    background-color: rgb(138, 180, 180);
+}
